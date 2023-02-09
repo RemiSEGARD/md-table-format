@@ -1,0 +1,6 @@
+- id: md-table-format
+  name: md-table-format
+  description: This hook formats markdown table
+  entry: md-table-format
+  language: python
+  types: [markdown]
