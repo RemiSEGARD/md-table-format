@@ -71,7 +71,7 @@ def format_tables_in_file(file) -> None:
     f = open(file)
     lines = f.readlines()
     f.close()
-    f = open("test_out", "w")
+    f = open(file, "w")
     nb_lines = len(lines)
     i = 0
     while i < nb_lines:
@@ -87,9 +87,10 @@ def format_tables_in_file(file) -> None:
             i += 1
     f.close()
 
-def main(argv):
+def main():
+    argv = sys.argv
     for file in argv:
         format_tables_in_file(file)
 
 if __name__ == "__main__":
-    main(sys.argv)
+    main()

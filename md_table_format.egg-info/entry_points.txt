@@ -1,0 +1,2 @@
+[console_scripts]
+md-table-format = src.main:main

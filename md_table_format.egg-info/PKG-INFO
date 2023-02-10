@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: md-table-format
+Version: 1.0
+Summary: Markdown table formatter
+Home-page: https://github.com/RemiSEGARD/md-table-format/blob/master/.pre-commit-hooks.yaml
+Author: Remi SEGARD
+Author-email: r.segard@hotmail.fr
+License: MIT
